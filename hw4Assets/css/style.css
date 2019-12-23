@@ -1,0 +1,108 @@
+
+ /* this is the background of the website */
+ body {
+
+    background-image: url("../images/Background.jpg")
+
+ }
+
+
+ 
+ /* This is the jumbotron header  */
+ .jumbotron {
+
+    background-color: teal;
+    max-width: 500px;
+    max-height: 500px;
+    float:top;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* This is the box in which the text is displayed */
+.textBox {
+
+    background-color: tomato;
+    text-align: center;
+    max-width: 700px;
+    max-height: 700px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* this is the box saying unit size to build */
+.hText{
+
+    max-height: 150px;
+    max-width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: teal;
+
+}
+
+/* this is the number box that the player need to achieve */
+.numberBox {
+
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    background-color: tomato;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* this is the box that displays wins and losses */
+.row{
+    
+    background-color: teal;
+    text-align: center;
+    /* float: right; */
+    padding: 10px;
+    margin: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    
+    }
+
+/* this is the button styling */
+.icons {
+    
+    display: inline-block;
+  	max-width: 100px;
+  	max-height: 100px;
+  	width: auto;
+  	height: auto;
+    margin: 10px;
+    padding: 10px;
+      
+}
+
+/* this is the total points box */
+#totalPointsSection {
+
+    background-color: teal;
+    text-align: center;
+    max-width: 500px;
+    max-height: 200px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* this is box that displays the point totals */
+.totalBox {
+
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    background-color: tomato;
+    max-height: 150px;
+    max-width: 150px;
+    
+}
