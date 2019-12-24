@@ -34,19 +34,19 @@ body {
 /* link styling */
 a:link {
 
-    color: black;
+  color: #BC9B6A;
 
 }
 
 a:visited {
 
-color: black;
+color: #BC9B6A;
 
 }
 
 a:hover {
 
-color: teal;
+color: #FDB515;
 
 }
 

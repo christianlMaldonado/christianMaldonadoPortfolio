@@ -1,23 +1,50 @@
 
 
+/* backgroun image */
+body {
 
+    background-image: url(../ucBerkeleyImages/background.jpg);
+
+}
+
+/* styling of the prokect links*/
+.linkBody {
+
+    background-color: #FDB515;
+    max-height: 1000px;
+    max-width: 200px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.projectSections {
+
+    background-color: #003262;
+
+}
 
 /* Link Styling */
-
 a:link {
 
-    color: black;
+    color: #BC9B6A;
 
 }
 
 a:visited {
 
-color: black;
+color: #BC9B6A;
 
 }
 
 a:hover {
 
-color: teal;
+color: #FDB515;
+
+}
+
+p {
+
+    color: #BC9B6A;
 
 }
