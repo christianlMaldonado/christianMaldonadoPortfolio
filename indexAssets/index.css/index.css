@@ -1,0 +1,77 @@
+
+
+/* TO DO!! move projects into a web page with easly link acess and breadcrumbs */
+
+
+/* backgroung image of main page */
+body {
+
+    background-image: url("../indexImages/background.jpg");
+
+}
+
+/* TopHeader scetion of webstite */
+.topHeader {
+  
+    float: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 10px;
+    padding:10px;
+    background-color: white;
+
+}
+
+/* keep projects with link into this box */
+.projectLinks {
+
+    max-width: 500px;
+    max-height: 1000px;
+    background-color: white;
+
+}
+
+/* link styling */
+a:link {
+
+    color: black;
+
+}
+
+a:visited {
+
+color: black;
+
+}
+
+a:hover {
+
+color: teal;
+
+}
+
+
+
+/* ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+ */
