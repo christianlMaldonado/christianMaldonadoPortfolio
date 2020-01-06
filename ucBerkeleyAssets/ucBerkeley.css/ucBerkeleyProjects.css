@@ -36,6 +36,16 @@ body {
 
 }
 
+/* 
+ul{
+
+    max-width: 400px;
+    max-height:400px ;
+    padding: 10px;
+    margin: 10px;
+
+} */
+
 /* Link Styling */
 a:link {
     color: #BC9B6A;
