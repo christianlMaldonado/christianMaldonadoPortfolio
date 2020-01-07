@@ -14,20 +14,22 @@ body {
 .topHeader {
   
     float: center;
-    max-width: 1000px;
-    max-height: 1000px;
+    max-width: 500px;
+    max-height: 500px;
     margin: 10px;
     padding:10px;
-    background-color: white;
+    text-align: center;
+    background-color: teal;
 
 }
 
 /* keep projects with link into this box */
 .projectLinks {
 
-    max-width: 500px;
+    max-width: 1000px;
     max-height: 1000px;
-    background-color: white;
+    background-color: teal;
+    text-align: center;
 
 }
 
@@ -51,7 +53,7 @@ color: #FDB515;
 }
 
 
-
+/*  Breadcrumb Styling */
 /* ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
