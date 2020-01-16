@@ -3,13 +3,16 @@
 var hero = ["Captain America", "Hulk", "Iron Man", "Thor"];
 
 function displayGif() {
-
+console.log("displayGif")
     var hero = $(this).attr("data-name");
-    var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + hero + "&api_key=PzWVIo3ocW3i5iJKFy7ceDRxGL2hMfxd=10";
+   // http://api.giphy.com/v1/gifs/search?q=hulk&api_key=PzWVIo3ocW3i5iJKFy7ceDRxGL2hMfxd&limit=10
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + hero +  "&api_key=PzWVIo3ocW3i5iJKFy7ceDRxGL2hMfxd&limit=10";
+    //GiphyUISDK.configure(apiKey: "PzWVIo3ocW3i5iJKFy7ceDRxGL2hMfxd");
 
     //Ajax Call
     $.ajax({ url: queryUrl, method: "GET"}).done(function(response) {
-
+        console.log("your in ajax call")
+        console.log(response)
         //Empty div holding previous Gifs
         $('.gifGoesHere').empty();
 
@@ -20,7 +23,7 @@ function displayGif() {
             var rating    = response.data[i].rating;
             var ratingDiv = $('<p>').html("Rating: " + rating);
             var animated  = response.data[i].images.fixed_height.url;
-            var still     = respomse.data[i].images.fixed_height_still.url;
+            var still     = response.data[i].images.fixed_height_still.url;
             var gifImg    = $('<img class="gImage">');
 
             // Default gifs still
@@ -32,7 +35,7 @@ function displayGif() {
             // Securing ratings appear after their respective gifs
             gifDiv.append(ratingDiv);
             gifDiv.prepend(gifImg);
-            $('.gifgoesHere').prepend(gifDiv);
+            $('.gifGoesHere').prepend(gifDiv);
 
         } 
 
