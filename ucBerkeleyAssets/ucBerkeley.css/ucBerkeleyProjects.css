@@ -1,20 +1,26 @@
 
+/* colors 
+#003262 - UC berkeley blue
+#FDB515 - UC Berkeley gold */
+
 
 /* background image */
 body {
 
-    background-image: url(../ucBerkeleyImages/background3.jpg);
+    background-image: url(../ucBerkeleyImages/background7.jpg);
     background-repeat: repeat;
      background-size: 100%;
 }
 
 .container {
 
-    background-color:#003262 ;
-    opacity: 85%;
-
+    text-align: center;
+    text-decoration: #BC9B6A;
 }
+h1{
 
+    color: #BC9B6A;
+}
 h5 {
 
     color: #ffffff;
@@ -28,15 +34,15 @@ h5 {
 
 /* Link Styling */
 a:link {
-    color: #000000;
+    color: #FDB515;
 }
 
 a:visited {
-    color: #000000;
+    color: #FDB515;
 }
 
 a:hover {
-    color: #FDB515;
+    color: red;
 }
 
 p {
