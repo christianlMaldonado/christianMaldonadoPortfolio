@@ -6,8 +6,9 @@
 /* backgroung image of main page */
 body {
 
-    background-image: url("../indexImages/background.jpg");
-
+    background-image: url("../indexImages/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /* TopHeader scetion of webstite */

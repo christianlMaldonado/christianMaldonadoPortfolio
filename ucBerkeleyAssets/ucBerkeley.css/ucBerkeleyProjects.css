@@ -1,58 +1,38 @@
 
 
-/* backgroun image */
+/* background image */
 body {
 
-    background-image: url(../ucBerkeleyImages/background.jpg);
+    background-image: url(../ucBerkeleyImages/background3.jpg);
+    background-repeat: repeat;
+     background-size: 100%;
+}
+
+.container {
+
+    background-color:#003262 ;
+    opacity: 85%;
 
 }
 
-/*styling of the header Section*/
-.headerSection {
+h5 {
 
-    background-color: #FDB515;
-    max-width: 1000px;
-    margin: 10px;
-    padding: 10px;
-
+    color: #ffffff;
 }
 
-/* styling of the prokect links*/
-.linkBody {
+/* .nav-wrapper{
 
-    background-color: #FDB515;
-    max-height: 1000px;
-    max-width: 500px;
-    margin: 10px;
-    padding: 10px;
-
-}
-
-.projectSections {
-
-    background-color: #003262;
-    margin: 5px;
-    padding: 10px;
-
-}
-
-/* 
-ul{
-
-    max-width: 400px;
-    max-height:400px ;
-    padding: 10px;
-    margin: 10px;
+    background color: #003262;
 
 } */
 
 /* Link Styling */
 a:link {
-    color: #BC9B6A;
+    color: #000000;
 }
 
 a:visited {
-    color: #BC9B6A;
+    color: #000000;
 }
 
 a:hover {
