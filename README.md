@@ -10,4 +10,4 @@ In the Main page named index.html you will be given choices to click on projects
 
 I have UC Berkeley and Monterey Peninsula College to choose from as of now. 
 
-Any other Projects worked on will be added to this website.
+Any other Projects worked on will be added to this website.sf
