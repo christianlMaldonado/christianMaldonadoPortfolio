@@ -32,6 +32,13 @@ h5 {
 
 } */
 
+/* Naavbar logo */ 
+.brand-logo {
+    max-width: 50px;
+    max-width: 50px;
+}
+
+
 /* Link Styling */
 a:link {
     color: #FDB515;
@@ -48,4 +55,3 @@ a:hover {
 p {
     color: #BC9B6A;
 }
-
