@@ -11,18 +11,6 @@ body {
     background-size: 100%;
 }
 
-/* TopHeader scetion of webstite */
-.topHeader {
-  
-    max-width: 500px;
-    max-height: 500px;
-    margin: 10px;
-    padding:10px;
-    text-align: center;
-    background-color: teal;
-
-}
-
 /* keep projects with link into this box */
 .projectLinks {
 
