@@ -14,24 +14,20 @@
     <link rel="stylesheet" href="ucBerkeleyAssets/ucBerkeley.css/ucBerkeleyProjects.css">
     </link>
 
-    <title> Christian Maldonado Portfolio </title>
-
-    <script>
-    $(document).ready(function () {
-        $(".button-collapse").sideNav();
-      });
-    </script>
+    <title> Christian Maldonado Portfolio </title>   
 
 </head>
 
 <body>
 
+
     <!-- Hamburger sidebar for mobile responsiveness===============================================================================================================-->
 
+<div>
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper blue darken-4 amber-text lighten-2">
             Christian Maldonado Portfolio
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">MENU</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html"> Home Page </a></li>
                 <li class="active"><a href="ucBerkeleyProjects.html"> UC Berkeley </a></li>
@@ -40,21 +36,23 @@
         </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
+    <ul class="sidenav blue darken-4 amber-text lighten-2" id="mobile-demo">
         <li><a href="index.html"> Home Page </a></li>
         <li><a href="ucBerkeleyProjects.html"> UC Berkeley </a></li>
         <li><a href="#"> Monterey Peninsula College </a></li>
     </ul>
 
-    <!-- Page Layout here  ==================================================================================================================================== -->
+</div>
+
+    <!-- Page Layout here  =========================================================================================================================================================== -->
     <div class="container">
-        <h1>This is every Assignment/Project worked on at UC Berkeley Extension</h1>
+        <h1>Assignment/Projects worked on at UC Berkeley Extension</h1>
     </div>
 
     <div class="row">
 
         <div class="col s12">
-            <!-- This div is 12-columns wide on all screen sizes -->
+            <!-- This div is 12-columns wide on all screen sizes =========================================================================================================================-->
 
             <!-- column half Left Side ==================================================================================================================================== -->
             <div class="col s6">
@@ -200,9 +198,8 @@
                     </div>
                 </div>
 
-
-                <!-- 6 collumn end-->
             </div>
+            <!-- 6 collumn end Left Side ====================================================================================================================================-->
 
             <!-- 6 Column half Right Side ====================================================================================================================================-->
             <div class="col s6" class="align-center">
@@ -310,8 +307,12 @@
     <!-- Materialize JS call -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <!-- Local JS script call -->
-    <script src="ucBerkeleyAssets/ucBerkeley.js/berkeleylogic.js"> </script>
+    <script> 
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {edge:'right'});
+        });
+    </script>
 
 </body>
 

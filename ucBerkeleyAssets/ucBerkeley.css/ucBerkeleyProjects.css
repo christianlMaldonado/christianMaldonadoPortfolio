@@ -4,12 +4,12 @@
 #FDB515 - UC Berkeley gold */
 
 
-/* background image */
+/* background image ====================================================================*/
 body {
 
-    background-image: url(../ucBerkeleyImages/background7.jpg);
+    background-image: url(../ucBerkeleyImages/background6\ copy.jpg);
     background-repeat: repeat;
-     background-size: 100%;
+    background-size: 100%;
 }
 
 .container {
@@ -26,20 +26,7 @@ h5 {
     color: #ffffff;
 }
 
-/* .nav-wrapper{
-
-    background color: #003262;
-
-} */
-
-/* Naavbar logo */ 
-/* .brand-logo {
-    max-width: 50px;
-    max-width: 50px;
-} */
-
-
-/* Link Styling */
+/* Link Styling =============================================================================*/
 a:link {
     color: #FDB515;
 }

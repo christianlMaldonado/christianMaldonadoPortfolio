@@ -4,37 +4,29 @@
 
 /* backgroung image of main page */
 body {
-
-    background-image: url("../indexImages/background3.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../indexImages/background6.jpg");
+    background-repeat: repeat;
     background-size: 100%;
 }
 
-/* keep projects with link into this box */
-.projectLinks {
-
-    max-width: 1000px;
-    max-height: 1000px;
-    background-color: teal;
-    text-align: center;
-
+h1 {
+  text-align: center;
 }
+
+h5 {
+  text-align: center;
+}
+
 
 /* link styling */
 a:link {
-
   color: #BC9B6A;
-
 }
 
 a:visited {
-
 color: #BC9B6A;
-
 }
 
 a:hover {
-
 color: #FDB515;
-
 }
