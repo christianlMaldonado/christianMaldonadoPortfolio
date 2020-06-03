@@ -1,0 +1,152 @@
+
+.tracks {
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+#center {
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  font-family: "Megrim", cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  margin-left: 0px;
+}
+
+#searchHeader {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-family: "Megrim", cursive;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#profPic{
+    height: 400px;
+    margin-top: 10px;
+}
+
+#tour {
+    clear: both;
+}
+
+#form {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
+#lyrics {
+  max-height: 400px;
+  margin-top: 10px;
+  text-align: center;
+  padding-right: 10%;
+}
+
+#submit{
+    margin-bottom: 2px;
+}
+
+#searchTerm {
+  text-align: center;
+}
+
+#profile {
+  text-align: center;
+  left: 0;
+  margin-bottom: 200px;
+}
+
+div.lyrics {
+  width: 100%;
+  overflow: auto;
+}
+
+#musicVideo {
+  margin-top: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #004d40;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00695c;
+}
+
+@media only screen and (max-width: 1230px) {
+  #lyrics {
+    width: 100%;
+    clear: left;
+    margin-bottom: 200px;
+    font-size: 20px;
+  }
+
+  #profile {
+    width: 100%;
+    clear: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  #musicVideo {
+    width: 100%;
+    clear: left;
+    margin-bottom: 10px;
+  }
+
+  #header {
+    left: 0;
+    font-size: 70px;
+  }
+
+  #profPic {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: #ffffff;
+  }
+  #form {
+    background-color: #242424;
+  }
+  #header {
+    -webkit-text-stroke: 2px #0892d0;
+  }
+  #searchHeader {
+    -webkit-text-stroke: 0.5px #0892d0;
+  }
+  
+  #searchTerm {
+    color: white;
+  }
+}
